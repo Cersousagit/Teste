@@ -1,0 +1,453 @@
+body{
+    font-family:sans-serif;
+    margin: 0px;
+}
+
+/* NAVEGAÇÃO EM TODAS AS PÁGINAS */
+#navbar{
+    display: block;
+    padding: 30px 0;
+    background-image: linear-gradient(#242529, #3D3F45);
+    justify-content: right;
+}
+
+/* TITULO G3 EM TODAS AS PÁGINAS */
+#title{
+    background-image: linear-gradient(#242529, #3D3F45);
+    border-radius: 20px;
+    max-width:40%;
+    display: inline-block; 
+    padding: 20px;
+    margin: 5px 30px;
+    font-size: 25px;
+    font-style: 20px solid;
+    color: white;
+    box-shadow: orange 5px 5px 5px;
+    font-weight: bold;
+}
+
+/* MENU EM TODAS AS PÁGINAS*/
+ul{
+    float: right;
+    margin: 0 25px;  
+}
+
+ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0;
+}
+
+ul li a{
+    display: block;
+    margin: 10px 5px;
+    line-height: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul li a:link, ul li a:visited{
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+ul li a:hover{
+    color: orange;
+}
+
+/* TITULO EM TODAS AS PÁGINAS MENOS INÍCIO */
+#titulo{
+    background-color: #bbf0f3;
+    background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
+    padding: 30px;
+}
+
+#titulo h1{
+    color:black;
+    text-align: center;
+}
+
+/* 2 IMAGENS VACINADAS - PÁGINA INÍCIO */
+#noticiasPrincipais{
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    padding: 50px 0;    
+}
+
+#noticiasPrincipais p{
+    font-size: 20px;
+    font-weight: normal;
+    width: 70%;
+    margin: 0 auto; 
+}
+
+#imagensPrincipais{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* INÍCIO DE NOTÍCIAS - PÁGINA INÍCIO */
+#noticiasGerais{
+    background-image: linear-gradient(#242529, #3D3F45);
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 8px;
+}
+
+#noticiasGerais p{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* QUADRO 1 DE NOTICIAS - PÁGINA INÍCIO */
+#quadro1{
+    width: 100%;
+    padding: 40px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    display: inline-flex;
+    text-align: center;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+
+.noticia1{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 5px;
+    padding:10px;    
+}
+
+.noticia1 p{
+    font-size: 14px;
+    width:70%;
+    text-align: left;
+    margin:auto;
+    color: black;
+}
+
+.imagemNews{
+    width: 70%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+/* QUADRO 2 DE NOTÍCIAS - PÁGINA INÍCIO */
+#quadro2{
+    width: 100%;
+    padding: 40px 0 10px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    display: inline-flex;
+    text-align: center;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+
+.noticia2{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 5px;
+    padding: 10px;  
+    margin-left: 20px; 
+}
+
+.noticia2 p{
+    font-size: 14px;
+    width:70%;
+    margin: auto;
+    color: black;
+}
+
+.imagemNews2{
+    width: 70%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+/* QUADRO 3 DE VIDEO - PÁGINA INÍCIO */
+#videoContainer{
+    text-align:center;
+    position: relative;
+    padding:20px 0 50px 0;   
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    color: white;
+}
+
+#videoContainer p{
+    justify-content: center;
+    display: flex;
+    color: black;
+    width: 50%;
+    margin: auto;
+}
+
+#video{
+    width: 50%;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+/* BOTÃO GERAL - PÁGINA INÍCIO */
+.botao{
+    background-color:  blue;
+    border-radius: 10px; 
+    padding:10px 20px;
+    border:none;
+}
+
+.botao a{
+    color: white;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* BOTÃO DE VÍDEO - PÁGINA INÍCIO */
+#botao-video{
+    background-color: blue;
+    border-radius: 10px; 
+    padding:10px 20px;
+    border:none;
+    text-align:center;
+}
+
+#botao-video a{
+    color: white;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* QUADRO 1 - PÁGINA QUEM SOMOS */
+#quadroQuemSomos1{
+    width: 100%;
+    padding: 40px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+
+.quemSomos{
+    width:70%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 5px;
+    padding:10px;
+}
+
+.quemSomos p{
+    font-size: 14px;
+    width:70%;
+    text-align: center;
+    margin:auto;
+    margin-top:5px;
+    color: black;
+}
+
+.quemSomos h3{
+    font-size:20px;
+}
+
+/* QUADRO 2 - PÁGINA QUEM SOMOS */
+#quadroQuemSomos2{
+    width: 100%;
+    padding: 40px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+
+.quemSomos2{
+    width:70%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 5px;
+    padding:10px;
+}
+
+.quemSomos2 p{
+    font-size: 14px;
+    width:70%;
+    text-align: center;
+    margin:auto;
+    margin-top:5px;
+    color: black;
+}
+
+.quemSomos2 h3{
+    font-size:20px;
+}
+
+/* FOTOS - PÁGINA QUEM SOMOS */
+.imagemLinkedin{
+    max-width: 70%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+/* BOTÃO DE LINKEDIN - PÁGINA QUEM SOMOS */
+.botao-linkedin{
+    background-color: #0e76a8;
+    border-radius: 10px; 
+    padding:10px 20px;
+    border:none;
+    text-align:center;
+}
+
+.botao-linkedin a{
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+    font-size:18px;
+}
+
+/* PÁGINA DE CONTATO */
+#quadroForm{
+    display: table;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 50px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    color: white;
+
+}
+
+#textoContato{
+    display: table-cell;
+    width: 50%;
+    vertical-align: top;
+    padding: 80px 20px 0 70px;
+    font-size:20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+#primeiraVez{
+    color: black;
+    font-weight: bold;
+}
+
+/* FORMULÁRIO - PÁGINA CONTATO */
+#form{
+    display: table-cell;
+    float: right;
+    width: 80%;
+    margin: 0 70px;
+}
+
+#form1{
+    padding:5px;
+}
+
+.campo{
+    font-size:20px;
+    color:black
+}
+
+input{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/* BOTÃO DE ENVIAR - PÁGINA CONTATO */
+#botao-enviar{
+    background-color: yellow;
+    border-radius: 10px;
+    margin-left: 270px; 
+    padding:10px 20px;
+    border:none;
+    width:50%;
+    font-weight: bold   ;
+}
+
+/* PAGINA SAIBA MAIS */
+#secao{
+    background-image:linear-gradient(#242529, #3D3F45);
+    justify-content: center;
+    display: flex;
+    margin:0;
+    padding:8px 0;
+    color:white;
+}
+
+/* INÍCIO - PÁGINA SAIBA MAIS */
+#quadroSaibaMais{
+    width: 100%;
+    text-align:center;
+    margin:0 auto;
+    padding:10px 0 40px 0;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); 
+}
+
+.fontes{
+    text-align: left;
+    padding-left: 70px;
+}
+
+.fontes h3{
+    font-size:20px;
+    margin-bottom:0;
+    padding:10px 0;
+}
+
+.fontes a{
+    color:mediumblue;
+    text-decoration: none;
+    margin:0;    
+}
+
+/* RODAPÉ EM TODAS AS PÁGINAS */
+#rodape{
+    background-image: linear-gradient(#242529, #3D3F45);
+    display: flex;
+    flex-direction: column;
+    color:white;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;  
+}
